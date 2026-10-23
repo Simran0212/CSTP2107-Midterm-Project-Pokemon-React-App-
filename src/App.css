@@ -1,5 +1,5 @@
 table {
-  display: grid;
-  grid-template-columns: auto, auto, auto;
-  gap: 5px;
+  display: inline-flex;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
 }
