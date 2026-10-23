@@ -25,7 +25,8 @@ const Homepage = () => {
 
   return (
     <div>
-      
+      <h1>Welcome to the Pokemon Homepage</h1>
+      <Table data={pokemonData}></Table>
     </div>
   )
 }
