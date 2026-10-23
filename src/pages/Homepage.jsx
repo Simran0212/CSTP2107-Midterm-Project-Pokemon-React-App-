@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import { useNavigate } from 'react-router-dom'
+import Table from "../components/Table"
 
 
 const URL = 'https://pokeapi.co/api/v2/pokemon/';
@@ -26,7 +27,7 @@ const Homepage = () => {
   return (
     <div>
       <h1>Welcome to the Pokemon Homepage</h1>
-      <Table data={pokemonData}></Table>
+      <Table data={pokemonData.results}></Table>
     </div>
   )
 }
