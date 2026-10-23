@@ -8,7 +8,7 @@ function App() {
   return (
     <Routes>
      <Route path='/' element={<Homepage/>}/>
-     <Route path='/dashboard' element={<PokemonDetailsPage/>}/>
+     <Route path='/dashboard/pokemon/:pokemonName' element={<PokemonDetailsPage/>}/>
     </Routes>
   )
 }
