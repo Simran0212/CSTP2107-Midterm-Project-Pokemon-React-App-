@@ -16,6 +16,12 @@ const Homepage = () => {
     useEffect(() => {
         getPokemonData();
     }, []);
+    
+    const navigate  = useNavigate();
+
+    const handleClick = () => {
+        navigate('/')
+    }
 
   return (
     <div>
